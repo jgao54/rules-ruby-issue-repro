@@ -1,0 +1,23 @@
+PATH
+  remote: ../client
+  specs:
+    my_client (0.0.1)
+      redis (~> 4.5.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    redis (4.5.1)
+
+PLATFORMS
+  arm64-darwin-21
+  ruby
+
+DEPENDENCIES
+  my_client!
+
+RUBY VERSION
+   ruby 2.7.6p219
+
+BUNDLED WITH
+   2.2.32
