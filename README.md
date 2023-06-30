@@ -1,5 +1,7 @@
 # rules-ruby-issue-repro
 
+Running `cd app && bundle install && bundle exec ruby app.rb` works.
+
 Running `bazel run //app` returns the following error:
 
 ```
